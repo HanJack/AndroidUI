@@ -30,5 +30,6 @@
         <item>[27]底部导航+左右切换</item>
         <item>[28]头部TAB切换指示器</item>
         <item>[29]小树叶行的Loading对话框</item>
+        <item>[30]CirculaProgressButton</item>
     </string-array>
 </resources>

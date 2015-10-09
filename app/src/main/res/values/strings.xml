@@ -35,4 +35,8 @@
     <string name="note_advanced_tumblr">Try pressing the button</string>
     <string name="note_advanced_path">Try pressing the button</string>
     <string name="myText">自己的测试</string>
+
+    <string name="Upload">Upload</string>
+    <string name="Error">Error</string>
+    <string name="Complete">Complete</string>
 </resources>

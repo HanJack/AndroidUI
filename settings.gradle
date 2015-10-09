@@ -1,1 +1,1 @@
-include ':app', ':libarclayout', ':libdialog', ':libloading', ':libdatetimepicker', ':libdatetime', ':libeffects'
+include ':app', ':libarclayout', ':libdialog', ':libloading', ':libdatetimepicker', ':libdatetime', ':libeffects', ':libcirprobtn'

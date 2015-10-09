@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.support.v4.widget.DrawerLayout;
 
 import com.cliff.ui.arclayout.ArcLayoutFragment;
+import com.cliff.ui.cirprobtn.CPBFragment;
 import com.cliff.ui.dialog.DateDialogFragment;
 import com.cliff.ui.dialog.DialogFragment;
 import com.cliff.ui.dialog.EffectsFragment;
@@ -47,30 +48,33 @@ public class MainActivity extends AppCompatActivity
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getSupportFragmentManager();
 
-        switch (position){
+        switch (position) {
             case 0:
-                fragmentManager.beginTransaction().replace(R.id.container, ArcLayoutFragment.newInstance(position+1)).commit();
+                fragmentManager.beginTransaction().replace(R.id.container, ArcLayoutFragment.newInstance(position + 1)).commit();
                 break;
             case 1:
-                fragmentManager.beginTransaction().replace(R.id.container, DialogFragment.newInstance(position+1)).commit();
+                fragmentManager.beginTransaction().replace(R.id.container, DialogFragment.newInstance(position + 1)).commit();
                 break;
             case 2:
             case 3:
                 fragmentManager.beginTransaction().replace(R.id.container, MainFragment.newInstance(position + 1)).commit();
                 break;
             case 4:
-                fragmentManager.beginTransaction().replace(R.id.container, DateDialogFragment.newInstance(position+1)).commit();
+                fragmentManager.beginTransaction().replace(R.id.container, DateDialogFragment.newInstance(position + 1)).commit();
                 break;
             case 5:
-                fragmentManager.beginTransaction().replace(R.id.container, EffectsFragment.newInstance(position+1)).commit();
+                fragmentManager.beginTransaction().replace(R.id.container, EffectsFragment.newInstance(position + 1)).commit();
                 break;
             case 28:
-                fragmentManager.beginTransaction().replace(R.id.container, LoadingFragment.newInstance(position+1)).commit();
+                fragmentManager.beginTransaction().replace(R.id.container, LoadingFragment.newInstance(position + 1)).commit();
+                break;
+            case 29:
+                fragmentManager.beginTransaction().replace(R.id.container, CPBFragment.newInstance(position + 1)).commit();
         }
     }
 
     public void onSectionAttached(int number) {
-        mTitle = getResources().getStringArray(com.cliff.ui.R.array.UiList)[number-1];
+        mTitle = getResources().getStringArray(com.cliff.ui.R.array.UiList)[number - 1];
     }
 
     public void restoreActionBar() {
