@@ -29,6 +29,10 @@
         <activity android:name=".cirprobtn.Sample3Activity" />
         <activity android:name=".cirprobtn.Sample4Activity" />
         <activity android:name=".cirprobtn.Sample5Activity" />
+        <activity android:name=".coverflow.SimpleExample" />
+        <activity android:name=".coverflow.ViewGroupExample" />
+        <activity android:name=".coverflow.ViewGroupReflectionExample" />
+        <activity android:name=".coverflow.XmlInflateExample" />
     </application>
 
 </manifest>

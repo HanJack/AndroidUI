@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libarclayout/libarclayout.iml" filepath="$PROJECT_DIR$/libarclayout/libarclayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/libcirprobtn/libcirprobtn.iml" filepath="$PROJECT_DIR$/libcirprobtn/libcirprobtn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libcoverflow/libcoverflow.iml" filepath="$PROJECT_DIR$/libcoverflow/libcoverflow.iml" />
       <module fileurl="file://$PROJECT_DIR$/libdatetime/libdatetime.iml" filepath="$PROJECT_DIR$/libdatetime/libdatetime.iml" />
       <module fileurl="file://$PROJECT_DIR$/libdatetimepicker/libdatetimepicker.iml" filepath="$PROJECT_DIR$/libdatetimepicker/libdatetimepicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/libdialog/libdialog.iml" filepath="$PROJECT_DIR$/libdialog/libdialog.iml" />

@@ -5,7 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:\DevelopSoftware\android-studio\gradle\gradle-2.4" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/libarclayout" />
             <option value="$PROJECT_DIR$/libcirprobtn" />
+            <option value="$PROJECT_DIR$/libcoverflow" />
             <option value="$PROJECT_DIR$/libdatetime" />
             <option value="$PROJECT_DIR$/libdatetimepicker" />
             <option value="$PROJECT_DIR$/libdialog" />

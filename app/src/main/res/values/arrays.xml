@@ -31,5 +31,6 @@
         <item>[28]头部TAB切换指示器</item>
         <item>[29]小树叶行的Loading对话框</item>
         <item>[30]CirculaProgressButton</item>
+        <item>[31]coverflow</item>
     </string-array>
 </resources>

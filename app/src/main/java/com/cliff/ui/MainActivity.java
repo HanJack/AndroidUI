@@ -10,6 +10,7 @@ import android.support.v4.widget.DrawerLayout;
 
 import com.cliff.ui.arclayout.ArcLayoutFragment;
 import com.cliff.ui.cirprobtn.CPBFragment;
+import com.cliff.ui.coverflow.CFFragment;
 import com.cliff.ui.dialog.DateDialogFragment;
 import com.cliff.ui.dialog.DialogFragment;
 import com.cliff.ui.dialog.EffectsFragment;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity
         mNavigationDrawerFragment.setUp(
                 com.cliff.ui.R.id.navigation_drawer,
                 (DrawerLayout) findViewById(com.cliff.ui.R.id.drawer_layout));
+
     }
 
     @Override
@@ -70,6 +72,10 @@ public class MainActivity extends AppCompatActivity
                 break;
             case 29:
                 fragmentManager.beginTransaction().replace(R.id.container, CPBFragment.newInstance(position + 1)).commit();
+                break;
+            case 30:
+                fragmentManager.beginTransaction().replace(R.id.container, CFFragment.newInstance(position + 1)).commit();
+                break;
         }
     }
 
