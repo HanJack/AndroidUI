@@ -33,6 +33,9 @@
         <activity android:name=".coverflow.ViewGroupExample" />
         <activity android:name=".coverflow.ViewGroupReflectionExample" />
         <activity android:name=".coverflow.XmlInflateExample" />
+        <activity android:name=".dialog.DigPlusActivity" />
+        <activity android:name=".swipe.MainActivity" />
+        <activity android:name=".swipe.SecondActivity" />
     </application>
 
 </manifest>

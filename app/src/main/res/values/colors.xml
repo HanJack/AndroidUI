@@ -30,4 +30,5 @@
     <drawable name="state_pressed">#cccccc</drawable>
     <drawable name="state_focused">#cccccc</drawable>
     <drawable name="normal_color">@android:color/white</drawable>
+    <color name="overlay_light">#F8F8F8</color>
 </resources>

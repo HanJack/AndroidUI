@@ -10,8 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/libdatetime/libdatetime.iml" filepath="$PROJECT_DIR$/libdatetime/libdatetime.iml" />
       <module fileurl="file://$PROJECT_DIR$/libdatetimepicker/libdatetimepicker.iml" filepath="$PROJECT_DIR$/libdatetimepicker/libdatetimepicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/libdialog/libdialog.iml" filepath="$PROJECT_DIR$/libdialog/libdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libdialogplus/libdialogplus.iml" filepath="$PROJECT_DIR$/libdialogplus/libdialogplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/libeffects/libeffects.iml" filepath="$PROJECT_DIR$/libeffects/libeffects.iml" />
       <module fileurl="file://$PROJECT_DIR$/libloading/libloading.iml" filepath="$PROJECT_DIR$/libloading/libloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libswipeback/libswipeback.iml" filepath="$PROJECT_DIR$/libswipeback/libswipeback.iml" />
     </modules>
   </component>
 </project>

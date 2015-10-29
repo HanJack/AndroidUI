@@ -30,4 +30,6 @@ dependencies {
     compile project(':libeffects')
     compile project(':libcirprobtn')
     compile project(':libcoverflow')
+    compile project(':libdialogplus')
+    compile project(':libswipeback')
 }

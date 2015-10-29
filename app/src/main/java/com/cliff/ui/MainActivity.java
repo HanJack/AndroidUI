@@ -1,5 +1,6 @@
 package com.cliff.ui;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.FragmentManager;
@@ -13,6 +14,8 @@ import com.cliff.ui.cirprobtn.CPBFragment;
 import com.cliff.ui.coverflow.CFFragment;
 import com.cliff.ui.dialog.DateDialogFragment;
 import com.cliff.ui.dialog.DialogFragment;
+import com.cliff.ui.dialog.DigPlusActivity;
+import com.cliff.ui.dialog.DigPlusFragment;
 import com.cliff.ui.dialog.EffectsFragment;
 import com.cliff.ui.loading.LoadingFragment;
 
@@ -67,6 +70,10 @@ public class MainActivity extends AppCompatActivity
             case 5:
                 fragmentManager.beginTransaction().replace(R.id.container, EffectsFragment.newInstance(position + 1)).commit();
                 break;
+            case 6:
+//                fragmentManager.beginTransaction().replace(R.id.container, DigPlusFragment.newInstance(position + 1)).commit();
+                startActivity(new Intent(this, DigPlusActivity.class));
+                break;
             case 28:
                 fragmentManager.beginTransaction().replace(R.id.container, LoadingFragment.newInstance(position + 1)).commit();
                 break;
@@ -75,6 +82,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case 30:
                 fragmentManager.beginTransaction().replace(R.id.container, CFFragment.newInstance(position + 1)).commit();
+                break;
+            case 31:
+                startActivity(new Intent(this, com.cliff.ui.swipe.MainActivity.class));
                 break;
         }
     }

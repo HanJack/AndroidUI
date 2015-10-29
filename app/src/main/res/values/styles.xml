@@ -3,6 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowIsTranslucent">true</item>
         <!-- Customize your theme here. -->
     </style>
     <!-- arclayout use-->
@@ -45,7 +46,7 @@
     <!-- arclayout use-->
     <!--crossView-->
     <declare-styleable name="CrossView">
-        <attr name="lineColor" format="color"/>
+        <attr name="lineColor" format="color" />
     </declare-styleable>
     <!--crossView-->
 </resources>

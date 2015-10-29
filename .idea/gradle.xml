@@ -17,8 +17,10 @@
             <option value="$PROJECT_DIR$/libdatetime" />
             <option value="$PROJECT_DIR$/libdatetimepicker" />
             <option value="$PROJECT_DIR$/libdialog" />
+            <option value="$PROJECT_DIR$/libdialogplus" />
             <option value="$PROJECT_DIR$/libeffects" />
             <option value="$PROJECT_DIR$/libloading" />
+            <option value="$PROJECT_DIR$/libswipeback" />
           </set>
         </option>
       </GradleProjectSettings>

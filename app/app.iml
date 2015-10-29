@@ -96,8 +96,10 @@
     <orderEntry type="module" module-name="libloading" exported="" />
     <orderEntry type="module" module-name="libdatetime" exported="" />
     <orderEntry type="module" module-name="libarclayout" exported="" />
+    <orderEntry type="module" module-name="libdialogplus" exported="" />
     <orderEntry type="module" module-name="libeffects" exported="" />
     <orderEntry type="module" module-name="libdialog" exported="" />
+    <orderEntry type="module" module-name="libswipeback" exported="" />
     <orderEntry type="module" module-name="libdatetimepicker" exported="" />
     <orderEntry type="module" module-name="libcirprobtn" exported="" />
     <orderEntry type="module" module-name="libcoverflow" exported="" />
