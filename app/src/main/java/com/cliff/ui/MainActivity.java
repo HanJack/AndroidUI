@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.support.v4.widget.DrawerLayout;
 
 import com.cliff.ui.arclayout.ArcLayoutFragment;
+import com.cliff.ui.bob.BobFragment;
 import com.cliff.ui.cirprobtn.CPBFragment;
 import com.cliff.ui.coverflow.CFFragment;
 import com.cliff.ui.dialog.DateDialogFragment;
@@ -73,6 +74,9 @@ public class MainActivity extends AppCompatActivity
             case 6:
 //                fragmentManager.beginTransaction().replace(R.id.container, DigPlusFragment.newInstance(position + 1)).commit();
                 startActivity(new Intent(this, DigPlusActivity.class));
+                break;
+            case 8:
+                fragmentManager.beginTransaction().replace(R.id.container, BobFragment.newInstance(position + 1)).commit();
                 break;
             case 28:
                 fragmentManager.beginTransaction().replace(R.id.container, LoadingFragment.newInstance(position + 1)).commit();

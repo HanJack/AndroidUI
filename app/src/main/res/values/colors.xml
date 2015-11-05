@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brown">#FF4B2D29</color>
+    <color name="green">#FF42543C</color>
+    <color name="orange">#FFE29B33</color>
+    <color name="pink">#FFE9C7C7</color>
+    <color name="gray">#FF929292</color>
     <color name="primary">#3c515c</color>
-    <color name="white">#FFFFFF</color>
     <color name="scrim">#42000000</color>
     <color name="pressed">#33000000</color>
 
